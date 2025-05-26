@@ -20,7 +20,7 @@ public class testeScanner {
     System.out.println("Digite o Número da sua casa");
     int n = scanner.nextInt();
 
-    System.out.println("Olá, " + nome + " sua idade é : " + idade + " anos, e seu endereço é " + txt + " nº " + n + ".");
+    System.out.println("Olá, " + nome + " sua idade é: : " + idade + " anos, e seu endereço é " + txt + " nº " + n + ".");
 
     scanner.close();
 
