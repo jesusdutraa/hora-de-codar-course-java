@@ -58,5 +58,13 @@ public class operadores {
         } else{
             System.out.println("Igual");
         }
+
+        // NOT
+
+        System.out.println();
+
+
+
+
     }
 }

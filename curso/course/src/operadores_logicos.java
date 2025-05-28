@@ -23,6 +23,12 @@ public class operadores_logicos {
       System.out.println(estaChovendo || temGuardaChuva);
 
 
+      // NOT 
+
+      System.out.println(estaChovendo);
+      // atenção pois ao engolbar os dois operadores com parenteses e o sinal de negação, todo o valor será negado novamente.
+      System.out.println(!(estaChovendo || !temGuardaChuva));
+
 
   }
 }

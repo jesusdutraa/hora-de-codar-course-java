@@ -24,7 +24,7 @@ public class mediaaluno {
             System.out.println("Olá "+ nome + " sua média foi " + media +", você está Reprovado");
         }
 
-
+        
 
         scanner.close();
 
