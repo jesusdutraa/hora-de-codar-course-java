@@ -56,7 +56,7 @@ public class operadores {
 
         if (t > 2 && t < 3){
             System.out.println("Maior");
-        } else if(4==4){
+        } else{
             System.out.println("Igual");
         }
     }
