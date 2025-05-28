@@ -2,18 +2,17 @@ public class operadores {
     public static void main(String[] args) {
         int x = 10;
 
-      /*  System.out.println(x == 10);
+       System.out.println(x == 10);
         System.out.println(x != 5);
         System.out.println(x == 0);
         System.out.println(x != 10);
         System.out.println(x > 10);
         System.out.println(x < 10);
         System.out.println(x >= 5);
-        System.out.println(x <= 9); */
-
+        System.out.println(x <= 9); 
         // Atribuição e comparação
 
-        var f = 10;
+       
         // var s == 10;
 
         // Comparação de Strings
