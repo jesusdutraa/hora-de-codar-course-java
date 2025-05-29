@@ -105,7 +105,8 @@ public class exercicios_condicionais {
           break;
       
         default:
-        System.out.println("Consoante");          break;
+        System.out.println("Consoante");         
+         break;
       }
 
 
