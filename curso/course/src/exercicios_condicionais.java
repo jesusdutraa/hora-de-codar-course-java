@@ -36,9 +36,9 @@ public class exercicios_condicionais {
     int numero = scanner.nextInt();
 
     if((numero%2 == 1)){
-      System.out.println("Seu número é "+ numero + " ele é número é impar");
+      System.out.println("Seu número é "+ numero + " ele é número impar");
     }else {
-      System.out.println("Seu número é "+ numero + " ele é número é par");
+      System.out.println("Seu número é "+ numero + " ele é número par");
     }
 
 
