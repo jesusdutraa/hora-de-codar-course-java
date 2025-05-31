@@ -29,6 +29,7 @@ public class exercicioProdutos {
       default:
         System.out.println("Nenhum item encontrado");
         break;
+        
     }
 
     System.out.println("Deseja alterar o valor do produto? 1 :  sim  2 : não ");
@@ -39,18 +40,16 @@ public class exercicioProdutos {
       System.out.println("Insira o valor que deseja alterar ao produto");
       double valorProduto = scanner.nextDouble();
       if (valorProduto < 50) {
-          System.out.println("Seu produto foi atribuido ao valor de " + valorProduto + " e está classificado como barato");
+          System.out.println("Seu produto é " + produtoCliente + " atribuido ao valor de " + valorProduto + " e está classificado como barato");
       } else if (valorProduto < 100) {
-        System.out.println("Seu produto foi atribuido ao valor de " + valorProduto + " e está classificado como médio");
+        System.out.println("Seu produto é " + produtoCliente + " atribuido ao valor de " + valorProduto + " e está classificado como médio");
       } else{
-        System.out.println("Seu produto foi atribuido ao valor de " + valorProduto + " e está classificado como caro");
+        System.out.println("Seu produto é " + produtoCliente + " atribuido ao valor de " + valorProduto + " e está classificado como caro");
       }
-      // System.out.println("Seu produto é arame e ficou no preço de " + valorProduto + " reais");
+      
     }else{
       System.out.println("Você não alterou o produto");
     }
-
-
 
     scanner.close();
   }
