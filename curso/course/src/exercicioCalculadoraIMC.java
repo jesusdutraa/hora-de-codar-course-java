@@ -14,7 +14,7 @@ public class exercicioCalculadoraIMC {
     double alturam = altura / 100; // convertendo a altura para metros
 
     double calculo = pesoKg / (alturam * alturam);
-
+    
   if (calculo < 18.5){
     System.out.println("Seu IMC é " +calculo + " você está abaixo do peso");
   } else if (calculo >= 18.5 && calculo <= 24.9){
