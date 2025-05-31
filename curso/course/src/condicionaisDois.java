@@ -39,7 +39,7 @@ public class condicionaisDois {
     // NOT (TRUE AND TRUE) > FALSE OR FALSE > FALSE
     boolean resultado4 = !(a && c) || b;
 
-    System.err.println(resultado4);
+    System.out.println(resultado4);
 
 
 
