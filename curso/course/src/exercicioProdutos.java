@@ -13,24 +13,44 @@ public class exercicioProdutos {
 
     String produtoCliente = scanner.nextLine().toLowerCase();
 
-    switch (produtoCliente) {
-      case "arame":
-        System.out.println("O seu produto é " + produto1 + " no valor de R$ 25 reais.");
-        break;
+    if (produtoCliente.equalsIgnoreCase(produto1) || produtoCliente.equalsIgnoreCase(produto2) || produtoCliente.equalsIgnoreCase(produto3)) { System.out.println("Seu produto é " + produtoCliente);
+      
+    } else{
+      System.out.println("Seu produto não foi encontrado deseja incluir um novo? 1: Sim 2: Não");
+      int resProduto = scanner.nextInt();
+      scanner.nextLine();
 
-        case "alicate":
-        System.out.println("O seu produto é " + produto2 + "  no valor de R$59 reais.");
-        break;
-
-        case "pá":
-        System.out.println("O seu produto é " + produto3 + " no valor de R$ 135 reais.");
-        break;
-
-      default:
-        System.out.println("Nenhum item encontrado");
-        break;
+      if (resProduto == 1) {
+        System.out.println("Qual item deseja incluir?");
+        String newProduto = scanner.nextLine();
+        System.out.println("Produto incluído com sucesso " + newProduto);
+      } else{
+        System.out.println("Nenhum item adicionado");
+        scanner.close();
+        return;
         
+      }
+      
     }
+
+    // switch (produtoCliente) {
+    //   case "arame":
+    //     System.out.println("O seu produto é " + produto1 + " no valor de R$ 25 reais.");
+    //     break;
+
+    //     case "alicate":
+    //     System.out.println("O seu produto é " + produto2 + "  no valor de R$59 reais.");
+    //     break;
+
+    //     case "pá":
+    //     System.out.println("O seu produto é " + produto3 + " no valor de R$ 135 reais.");
+    //     break;
+
+    //   default:
+    //     System.out.println("Nenhum item encontrado");
+    //     break;
+        
+    // }
 
     System.out.println("Deseja alterar o valor do produto? 1 :  sim  2 : não ");
 
