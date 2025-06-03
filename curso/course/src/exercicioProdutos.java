@@ -59,9 +59,9 @@ public class exercicioProdutos {
     if(validacaoProduto == 1){
       System.out.println("Insira o valor que deseja alterar ao produto");
       double valorProduto = scanner.nextDouble();
-      if (valorProduto < 50) {
+      if (valorProduto <= 50) {
           System.out.println("Seu produto é " + produtoCliente + " atribuido ao valor de " + valorProduto + " e está classificado como barato");
-      } else if (valorProduto < 100) {
+      } else if (valorProduto <= 100) {
         System.out.println("Seu produto é " + produtoCliente + " atribuido ao valor de " + valorProduto + " e está classificado como médio");
       } else{
         System.out.println("Seu produto é " + produtoCliente + " atribuido ao valor de " + valorProduto + " e está classificado como caro");

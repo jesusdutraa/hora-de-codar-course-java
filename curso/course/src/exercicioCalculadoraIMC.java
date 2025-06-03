@@ -20,7 +20,7 @@ public class exercicioCalculadoraIMC {
   } else if (calculo >= 18.5 && calculo <= 24.9){
     System.out.println("Seu IMC é " +calculo + " você está com seu peso normal");
   } else if (calculo >= 25 && calculo <= 29.9){
-    System.out.println("Seu IMC é " +calculo + " você está acima do peso");
+    System.out.println("Seu IMC é " + calculo + " você está acima do peso");
   } else{
     System.out.println("Seu IMC é " +calculo + " você está no grau de obesidade, tome cuidado e cuide da sua saúde");
   }
