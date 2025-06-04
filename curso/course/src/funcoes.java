@@ -2,6 +2,8 @@ public class funcoes {
   public static void main(String[] args) {
     saudacao();
     soma(10, 8);
+    saudar("Gabriel");
+    int n = 1;
   }
   
 
@@ -15,5 +17,15 @@ public class funcoes {
     int resultado = a + b;
     System.out.println("O resultado da função de soma é " + resultado);
 
+  }
+
+  public static int dobrar(int n){
+    return n *2;
+  }
+
+  public static  void saudar(String nome){
+     System.out.println(" olá " + nome);
+     return;
+     
   }
 }
