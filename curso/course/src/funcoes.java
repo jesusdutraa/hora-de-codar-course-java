@@ -4,6 +4,14 @@ public class funcoes {
     soma(10, 8);
     saudar("Gabriel");
     int n = 1;
+    int a =2;
+    int b =3;
+    int numeroDobrado = dobrar(n);
+    System.out.println("O número dobrado é " + numeroDobrado);
+    System.out.println(dobrar(12));
+    int x = dobrar(somar(a,b));
+    System.out.println(x);
+    verificar(n);
   }
   
 
@@ -19,6 +27,7 @@ public class funcoes {
 
   }
 
+  // neste exemplo o retorno é feito, porém não é impresso pois ele não teve a instrução de impressão
   public static int dobrar(int n){
     return n *2;
   }
@@ -28,4 +37,20 @@ public class funcoes {
      return;
      
   }
+
+  // declarar a função e seu tipo de retorno e seu tipo de parâmetro....
+  public static String verificar(int n){
+    if (n % 2 == 0) {
+      return "o número" + n + "é par";
+      
+    }else{
+      return "o numero " + n + "É impar";
+    }
+  }
+
+  public static int somar(int a, int b ){
+    return a + b;
+  }
+
+    
 }
